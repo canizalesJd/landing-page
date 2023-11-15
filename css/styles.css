@@ -8,7 +8,7 @@
 
 body {
 	font-family: "Inter", sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	overflow-x: hidden;
 	background-color: #ffff;
 	color: #1f2937;
@@ -124,7 +124,6 @@ button {
 	outline: 0;
 	border: 0;
 	font-size: 500;
-	padding: 10px 30px;
 	color: #fafafa;
 }
 
@@ -169,7 +168,6 @@ button {
 	outline: 0;
 	border: 0;
 	font-size: 500;
-	padding: 10px 30px;
 	color: #7c7c7c;
 	border: 1px solid #c9c9c9;
 }
@@ -223,6 +221,11 @@ button {
 	text-align: center;
 }
 
+.text-sm {
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+
 /* Widhts */
 .max-width-50 {
 	max-width: 50%;
@@ -238,6 +241,35 @@ button {
 
 .min-width-100 {
 	min-width: 100%;
+}
+
+/* CTA banner */
+
+.support-wrapper {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10vw;
+	max-width: 80vw;
+}
+
+footer {
+	bottom: 0;
+	max-width: 80vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+footer img {
+	height: 60px;
+	width: auto;
+	object-fit: contain;
 }
 
 /* Responsive */

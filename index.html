@@ -96,5 +96,33 @@
 				</div>
 			</div>
 		</section>
+		<section class="cta-banner">
+			<div class="support-wrapper">
+				<h3 class="subtitle mb-10">Support Us!</h3>
+				<p class="cta-text text-sm mb-20">
+					The Odin Project is funded by the community. Join us in empowering
+					learners around the globe by supporting The Odin Project!
+				</p>
+				<div class="button-wrapper">
+					<button class="secondary-btn">Learn More</button>
+					<button class="cta-btn ms-10">Donate</button>
+				</div>
+			</div>
+		</section>
+		<footer class="text-center">
+			<img
+				src="img/logo.png"
+				alt="The Odin Project Logo"
+				class="header-logo mb-20" />
+			<p class="mb-10">
+				High quality coding education maintained by an open source community.
+			</p>
+			<span id="copy">Copyright &copy; The Odin Project </span>
+		</footer>
 	</body>
+	<script>
+		let year = new Date().getFullYear();
+		document.getElementById("copy").innerHTML =
+			year + " The Odin Project. All rights reserved.";
+	</script>
 </html>
